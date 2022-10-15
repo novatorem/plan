@@ -5,6 +5,12 @@
 	import Footer from '$lib/components/Footer.svelte';
 	import Navbar from '$lib/components/Navbar.svelte';
 	import Content from './Content.svelte';
+
+	const pageDetails = {
+		page: '1',
+		previousPage: '/',
+		nextPage: '/2-users'
+	};
 </script>
 
 <svelte:head>
@@ -13,10 +19,9 @@
 
 <Scroll />
 <Theme />
-
 <Navbar />
 
 <Content />
 
-<Pagination page="1" />
+<Pagination {...pageDetails} />
 <Footer />

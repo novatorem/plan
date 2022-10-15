@@ -1,18 +1,10 @@
-<div class="flex justify-center mx-12">
-	<article class="prose">
-		<details>
-			<summary class="btn flex items-center justify-center mt-12 text-justify"
-				>Too long; didn't read</summary
-			>
+<script>
+	import Tldr from '$lib/components/Tldr.svelte';
+</script>
 
-			<p class="flex justify-center px-4 py-4 bg-base-200 rounded-md">
-				We want to ensure that the user has a satisfying experience, through understanding and
-				iteration.
-			</p>
-			<div class="divider mb-0" />
-		</details>
-	</article>
-</div>
+<Tldr
+	summary="We want to ensure that the user has a satisfying experience, through understanding and iteration."
+/>
 
 <div class="m-12 flex items-center text-justify justify-center">
 	<article class="prose">
@@ -52,10 +44,5 @@
 		</ul>
 
 		<div class="divider mb-0" />
-
-		<!-- <h2>Extra reading</h2>
-		<ul>
-			<li><a href="https://google.com">Temp</a></li>
-		</ul> -->
 	</article>
 </div>
