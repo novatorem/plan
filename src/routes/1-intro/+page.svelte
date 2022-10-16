@@ -4,6 +4,7 @@
 	import Pagination from '$lib/Pagination.svelte';
 	import Footer from '$lib/components/Footer.svelte';
 	import Navbar from '$lib/components/Navbar.svelte';
+	import Content from './Content.svelte';
 </script>
 
 <svelte:head>
@@ -15,9 +16,7 @@
 
 <Navbar />
 
-<div class="h-screen">
-	<p>:shrug:</p>
-</div>
+<Content />
 
 <Pagination page="1" />
 <Footer />

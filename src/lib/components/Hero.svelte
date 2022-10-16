@@ -1,8 +1,8 @@
 <script lang="ts">
 	import { onMount } from 'svelte';
 
-	let plans = ['app', 'website', 'business', 'program'];
-	let vowels = ['n', '', '', ''];
+	let plans = ['app', 'website'];
+	let vowels = ['n', ''];
 
 	let tick = 0;
 	setInterval(() => {
@@ -30,21 +30,20 @@
 
 <div id="hero" class="h-screen">
 	<div class="flex items-center text-left justify-center h-screen pl-12 pr-12 md:w-6/12 w-full">
-		<div class="items-center text-left justify-center">
+		<div class="items-center text-left justify-center sticky">
 			<h1 class="text-5xl font-bold inline leading-normal text-justify mb-0">
-				An idea for a{vowels[tick]}&nbsp;
+				Idea for a{vowels[tick]}&nbsp;
 			</h1>
 			<h1
-				class="text-5xl font-bold inline bg-gradient-to-r bg-clip-text leading-normal text-transparent from-indigo-500 via-purple-500 to-indigo-500 animate-text"
+				class="text-5xl font-bold inline bg-gradient-to-r bg-clip-text leading-normal text-transparent from-[#048eaa] via-blue-500 to-[#048eaa] animate-text"
 			>
 				{plans[tick]}
 			</h1>
-			<h1 class="text-5xl font-bold block text-justify leading-normal mb-0">
-				How can it be turned into a plan?
-			</h1>
+			<h1 class="text-5xl font-bold block text-justify leading-normal mb-0">Turned into a plan</h1>
 		</div>
 		<div />
 	</div>
+	<div class="divider mt-0 h-0" />
 </div>
 
 <svelte:head>
