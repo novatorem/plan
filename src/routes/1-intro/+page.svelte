@@ -19,5 +19,5 @@
 	<p>:shrug:</p>
 </div>
 
-<Pagination page=1 />
+<Pagination page="1" />
 <Footer />
