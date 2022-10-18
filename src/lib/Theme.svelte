@@ -1,7 +1,7 @@
 <script lang="ts">
 	import { browser } from '$app/environment';
 
-	let darkMode = true;
+	export let darkMode = true;
 
 	function handleSwitchDarkMode() {
 		darkMode = !darkMode;
@@ -33,7 +33,7 @@
 	}
 </script>
 
-<div>
+<div class="h-0 m-0">
 	<input checked={darkMode} on:click={handleSwitchDarkMode} type="checkbox" id="theme-toggle" />
 	<label for="theme-toggle" />
 </div>
@@ -44,7 +44,7 @@
 	}
 
 	#theme-toggle + label {
-		@apply z-10 inline-block cursor-pointer h-6 w-6 absolute top-6 right-6 rounded-full duration-300 content-[''];
+		@apply z-10 inline-block cursor-pointer h-6 w-6 absolute top-5 right-6 rounded-full duration-300 content-[''];
 	}
 
 	#theme-toggle:not(:checked) + label {
