@@ -7,14 +7,14 @@
 	import Content from './Content.svelte';
 
 	const pageDetails = {
-		page: '1',
-		previousPage: '/',
-		nextPage: '/2-users'
+		page: '2',
+		previousPage: '/1-intro',
+		nextPage: '/'
 	};
 </script>
 
 <svelte:head>
-	<title>Plan | 01 - Intro</title>
+	<title>Plan | 02 - Users</title>
 </svelte:head>
 
 <Scroll />
