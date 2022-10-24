@@ -37,6 +37,5 @@
 	</article>
 </div>
 
-
 <Pagination {...pageDetails} />
 <Footer />
