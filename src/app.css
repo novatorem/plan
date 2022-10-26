@@ -3,12 +3,22 @@
 @tailwind utilities;
 
 /* Hide scrollbar for Chrome, Safari and Opera */
-body::-webkit-scrollbar {
+html::-webkit-scrollbar,
+::-webkit-scrollbar {
 	display: none;
 }
 
 /* Hide scrollbar for IE, Edge and Firefox */
+html,
 body {
 	-ms-overflow-style: none; /* IE and Edge */
 	scrollbar-width: none; /* Firefox */
+}
+
+#progress-bar {
+	height: 4px;
+	background: #048eaa;
+	width: 0%;
+	position: fixed;
+	z-index: 100;
 }

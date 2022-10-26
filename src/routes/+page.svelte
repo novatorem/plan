@@ -26,7 +26,7 @@
 					<li data-content="⚙️" class="step step-neutral">Creation of work</li>
 					<li data-content="📖" class="step step-neutral">Extra reading</li>
 				</ul>
-				<a class="btn flex mt-6" href="/1-intro">Begin</a>
+				<a class="btn flex mt-6" href="/01-intro">Begin</a>
 			</div>
 		</div>
 	</div>
