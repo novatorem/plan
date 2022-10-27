@@ -29,7 +29,9 @@
 </script>
 
 <div id="hero" class="h-screen">
-	<div class="flex items-center text-left justify-center h-screen pl-12 pr-12 md:w-6/12 w-full z-100">
+	<div
+		class="flex items-center text-left justify-center h-screen pl-12 pr-12 md:w-6/12 w-full z-100"
+	>
 		<div class="inline-table">
 			<h1 class="text-5xl font-bold inline leading-normal text-justify mb-0 mr-0 pr-0">
 				Idea for a{vowels[tick]}&nbsp;
