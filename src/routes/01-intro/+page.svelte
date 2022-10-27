@@ -25,7 +25,7 @@
 
 	function setViewHeight() {
 		var currentScroll = drawercontent.scrollTop;
-		drawercontent.scrollTop = 99999999999999;
+		drawercontent.scrollTop = Number.MAX_SAFE_INTEGER;
 		height = drawercontent.scrollTop;
 		drawercontent.scrollTop = currentScroll;
 	}
