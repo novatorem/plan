@@ -48,7 +48,9 @@
 		<Theme />
 		<Navbar />
 
-		<Tldr summary="Better outline what the system needs to accomplish to solve the problem at hand." />
+		<Tldr
+			summary="Better outline what the system needs to accomplish to solve the problem at hand."
+		/>
 
 		<div class="m-12 flex items-center text-left justify-center md:text-justify">
 			<article class="prose">
