@@ -29,7 +29,7 @@ Types of questions:
 - Checkboxes
 - Ranges
 - Scales
-  - Likert scale
+  - [Likert scale](https://en.wikipedia.org/wiki/Likert_scale)
   - Semantic differential scales
 - Open-ended questions
 

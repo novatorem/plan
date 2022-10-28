@@ -50,12 +50,12 @@
 
 		<Tldr summary="Define what makes a user and how to quantify their needs and wants." />
 
-		<div class="m-12 flex items-center text-justify justify-center">
+		<div class="m-12 flex items-center text-left justify-center md:text-justify">
 			<article class="prose">
 				<SvelteMarkdown source={markdown} />
 				<div class="divider" />
 
-				<h1>Creation of Work</h1>
+				<h2 class="mt-0">Creation of work</h2>
 				<ul>
 					<li>Identify the target audience/user group</li>
 					<li>Outline problem space, <i>not</i> suspected problems</li>

@@ -1,4 +1,4 @@
-# Research
+# Data
 
 ## Setting goals
 

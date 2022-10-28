@@ -31,14 +31,14 @@
 	}
 
 	const pageDetails = {
-		page: '6',
-		previousPage: '/05-evaluation',
-		nextPage: '/07-personas'
+		page: '7',
+		previousPage: '/06-requirements',
+		nextPage: ''
 	};
 </script>
 
 <svelte:head>
-	<title>Plan | 06 - Requirements</title>
+	<title>Plan | 07 - Personas</title>
 </svelte:head>
 
 <div class="drawer">
@@ -48,18 +48,18 @@
 		<Theme />
 		<Navbar />
 
-		<Tldr summary="Better outline what the system needs to accomplish to solve the problem at hand." />
+		<Tldr summary="" />
 
 		<div class="m-12 flex items-center text-left justify-center md:text-justify">
 			<article class="prose">
 				<SvelteMarkdown source={markdown} />
 				<div class="divider" />
 
-				<h2 class="mt-0">Creation of work</h2>
+				<!-- <h2 class="mt-0">Creation of work</h2>
 				<ul>
-					<li>Create a questionnaire, interview, or your preferred data gathering method</li>
+					<li></li>
 				</ul>
-				<div class="divider" />
+				<div class="divider" /> -->
 			</article>
 		</div>
 
