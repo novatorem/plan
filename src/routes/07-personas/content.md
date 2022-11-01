@@ -41,6 +41,7 @@ Possible primary personas:
 - Slash, a forgetful teenager
 
 ## Creating personas
+
 A persona acts as a character to designers and is written to encompass a salient range of details while helping designers relate to their user base.
 
 Alliterating persona names with their main titles will help you talk about them:
@@ -48,6 +49,7 @@ Alliterating persona names with their main titles will help you talk about them:
 Manager Molly, Slacker Steve, Tech Support Terrence...
 
 ## Families/Groups of Personas
+
 A group of primary personas is useful if/when (mostly when) the range of your users cannot be represented by a single primary persona. E.g., univeristy students:
 
 - Affulent Alice
@@ -58,6 +60,7 @@ A group of primary personas is useful if/when (mostly when) the range of your us
 - Limited means Larry
 
 ## Scenarios
+
 Narrative is a powerful design tool.
 
 A **scenario** is an informal narrative description of users or personas using artifacts within environments to carry out tasks and activities.
