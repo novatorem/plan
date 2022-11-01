@@ -4,46 +4,37 @@ We need to conduct research in order to better understand the **requirements** o
 
 ## Environmental Requirements
 
-or the context of use for your system:
+The context of use for your system.
 
-What's the physical environment like?
-
-What's the social environment like? would using your system inconvenience or confuse others?
-
-What is the organizational environment?
-
-How easy is tech support to obtain?
-
-Are there stakeholders who control or influence your users?
+- What's the physical environment like?
+- What's the social environment like?
+  - Would using your system inconvenience or confuse others?
+- What is the organizational environment?
+- How easy is it to obtain tech support??
+- Are there stakeholders who control or influence your users?
 
 ## Functional Requirements
 
-or what your system needs to be able to do:
+What your system needs to be able to do.
 
-What is your system doing in general terms?
-
-what are the specific capabilities that the above requires?
-
-how will your system support them?
+- What is your system doing in general terms?
+- What are the specific capabilities that the above requires?
+- How will your system support them?
 
 ## Technical requirements
 
-or how your system needs to be built:
+How your system needs to be build.
 
-are there constraints to the technologies you can use (modality, emissions, battery life, etc.)
-
-Price, size, weight, etc.
-
-Compatibility and integration with other technologies
-
-data storage requirements
+- Are there constraints to the technologies you can use (modality, emissions, battery life, etc.)?
+- What would the price, size, weight, and other factors be?
+- Will there be any compatibility or integration with other technologies
+- Will it require storage or processing?
 
 ## Usability requirements
 
-or how easy to use should your system be:
+How easy to use will the system be?
 
-ease of learning: iPhone vs. Boeing cockpit
-
-ease of use
-
-protection from, and recovery from "errors"
+- What's the level of complexity?
+  - iPhone vs. Boeing cockpit
+- How easy will it be to use?
+- How will it protect and recover from errors, issues, or bugs?
