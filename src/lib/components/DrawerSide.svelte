@@ -9,6 +9,8 @@
 			<li><a href="/05-evaluation">05 | Evaluation</a></li>
 			<li><a href="/06-requirements">06 | Requirements</a></li>
 			<li><a href="/07-personas">07 | Personas</a></li>
+			<li><a href="/08-checkpoint">08 | Checkpoint</a></li>
+			<li><a href="/09-experience">09 | Experience</a></li>
 		</ul>
 	</div>
 </div>
