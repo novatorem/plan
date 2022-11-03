@@ -57,7 +57,7 @@
 
 				<h2 class="mt-0">Creation of work</h2>
 				<ul>
-					<li></li>
+					<li />
 				</ul>
 				<div class="divider" />
 			</article>
