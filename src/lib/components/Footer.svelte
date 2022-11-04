@@ -17,7 +17,7 @@
 		<p>Copyleft {new Date().getFullYear()} - Novatorem</p>
 	</div>
 	<div class="grid-flow-col gap-4">
-		<a href="https://mail.novac.dev"
+		<a href="https://mail.novac.dev" aria-label="E-mail the developer"
 			><svg
 				xmlns="http://www.w3.org/2000/svg"
 				width="24"
@@ -33,7 +33,7 @@
 				/></svg
 			>
 		</a>
-		<a href="https://github.com/novatorem/plan"
+		<a href="https://github.com/novatorem/plan" aria-label="Check the source code for this website"
 			><svg
 				xmlns="http://www.w3.org/2000/svg"
 				width="24"

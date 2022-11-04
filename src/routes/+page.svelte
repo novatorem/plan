@@ -16,19 +16,26 @@
 
 <div class="flex items-center text-justify justify-center m-12">
 	<div class="hero">
-		<div class="hero-content text-center">
-			<div class="max-w-md">
-				<h1 class="text-2xl mb-2">General structure will be:</h1>
-				<ul class="steps steps-vertical">
+		<div class="hero-content text-center w-full block">
+			<div class="">
+				<h1 class="text-2xl m-4">General structure</h1>
+				<ul class="steps m-4">
 					<li data-content="🪢" class="step step-neutral">Too long; didn't read</li>
 					<li data-content="🧑‍💻" class="step step-neutral">Teachings</li>
 					<li data-content="⚙️" class="step step-neutral">Creation of work</li>
 					<li data-content="🪙" class="step step-neutral">Sample work</li>
 				</ul>
-				<a class="btn flex mt-6" href="/01-intro">Begin</a>
 			</div>
+			<a class="btn btn-wide mt-6" href="/01-intro">Begin</a>
 		</div>
 	</div>
 </div>
 
 <Footer />
+
+<style>
+	.step,
+	.steps {
+		text-align: left;
+	}
+</style>
