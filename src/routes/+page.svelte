@@ -24,7 +24,7 @@
 					<li data-content="🪢" class="step step-neutral">Too long; didn't read</li>
 					<li data-content="🧑‍💻" class="step step-neutral">Learning and definitions</li>
 					<li data-content="⚙️" class="step step-neutral">Creation of work</li>
-					<li data-content="📑" class="step step-neutral">Extra reading</li>
+					<li data-content="📖" class="step step-neutral">Extra reading</li>
 				</ul>
 				<a class="btn flex mt-6" href="/1-intro">Begin</a>
 			</div>

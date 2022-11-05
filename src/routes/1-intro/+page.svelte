@@ -8,7 +8,7 @@
 
 	const pageDetails = {
 		page: '1',
-		previousPage: '/',
+		previousPage: '',
 		nextPage: '/2-users'
 	};
 </script>

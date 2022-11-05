@@ -9,7 +9,7 @@
 	const pageDetails = {
 		page: '2',
 		previousPage: '/1-intro',
-		nextPage: '/'
+		nextPage: '/3-research'
 	};
 </script>
 
