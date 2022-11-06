@@ -30,7 +30,7 @@ Are we doing any harm by gathering data?
   - Elements:
     - Disclosure: experimenter explains the purposes of the study and the procedure truthfully
     - Capacity: the participant should be able to understand the study and form a reasonable judgment with the information provided
-    - Voluntariness: free of coersion, manipulation, or bias, non-conditional compensation
+    - Voluntariness: free of coercion, manipulation, or bias, non-conditional compensation
   - Voluntary participation and right to withdraw
   - Right to privacy
 

@@ -2,7 +2,7 @@
 
 Data types:
 
-- **Quantitiative**: numerical variables, measurements, statistics
+- **Quantitative**: numerical variables, measurements, statistics
 - **Qualitative**: descriptions, anecdotes, rich data in context (words, pictures, observations)
 - **Objective**: observed facts, statistical evidence, impartial
 - **Subjective**: opinions, intuition, bias

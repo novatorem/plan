@@ -9,32 +9,33 @@
 	import markdown from './content.md?raw';
 
 	const pageDetails = {
-		page: '2',
-		previousPage: '/1-intro',
-		nextPage: '/3-research'
+		page: '4',
+		previousPage: '/03-research',
+		nextPage: '/05-evaluation'
 	};
 </script>
 
 <svelte:head>
-	<title>Plan | 02 - Users</title>
+	<title>Plan | 04 - Data</title>
 </svelte:head>
 
 <Scroll />
 <Theme />
 <Navbar />
 
-<Tldr summary="Define what makes a user and how to quantify their needs and wants." />
+<Tldr
+	summary="While gathering data to identify problems and users, we need to ensure that the correct information is retrieved and all participants are comfortable throughout."
+/>
 
 <div class="m-12 flex items-center text-justify justify-center">
 	<article class="prose">
 		<SvelteMarkdown source={markdown} />
 		<div class="divider" />
 
-		<h1>Creation of Work</h1>
+		<!-- <h1>Creation of Work</h1>
 		<ul>
-			<li>Identify the target audience/user group</li>
-			<li>Outline problem space, <i>not</i> suspected problems</li>
-		</ul>
+			<li></li>
+		</ul> -->
 	</article>
 </div>
 
