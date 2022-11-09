@@ -48,7 +48,9 @@
 		<Theme />
 		<Navbar />
 
-		<Tldr summary="Figure out what the experience will be like when interacting with your system." />
+		<Tldr
+			summary="Figure out what the experience will be like when interacting with your system."
+		/>
 
 		<div class="m-12 flex items-center text-left justify-center md:text-justify">
 			<article class="prose">
