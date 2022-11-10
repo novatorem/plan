@@ -31,14 +31,14 @@
 	}
 
 	const pageDetails = {
-		page: '9',
-		previousPage: '/08-checkpoint',
-		nextPage: '/10-design'
+		page: '10',
+		previousPage: '/09-experience',
+		nextPage: '/11-prototype'
 	};
 </script>
 
 <svelte:head>
-	<title>Plan | 09 - Experience</title>
+	<title>Plan | 10 - Design</title>
 </svelte:head>
 
 <div class="drawer">
@@ -48,9 +48,7 @@
 		<Theme />
 		<Navbar />
 
-		<Tldr
-			summary="Figure out what the experience will be like when interacting with your system."
-		/>
+		<Tldr summary="" />
 
 		<div class="m-12 flex items-center text-left justify-center md:text-justify">
 			<article class="prose">
@@ -58,14 +56,8 @@
 				<div class="divider" />
 
 				<h2 class="mt-0">Creation of work</h2>
-				<p>Create an experience map while keeping the following questions in mind:</p>
 				<ul>
-					<li>Who is involved (users/personas)</li>
-					<li>How did they get here</li>
-					<li>What info do they have</li>
-					<li>Happy/frustrated with the system</li>
-					<li>What are they trying to do</li>
-					<li>What are they interacting with</li>
+					<li />
 				</ul>
 				<div class="divider" />
 			</article>

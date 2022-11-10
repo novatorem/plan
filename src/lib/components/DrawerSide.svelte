@@ -11,6 +11,8 @@
 			<li><a href="/07-personas">07 | Personas</a></li>
 			<li><a href="/08-checkpoint">08 | Checkpoint</a></li>
 			<li><a href="/09-experience">09 | Experience</a></li>
+			<li><a href="/10-design">10 | Design</a></li>
+			<li><a href="/11-prototype">11 | Prototype</a></li>
 		</ul>
 	</div>
 </div>
