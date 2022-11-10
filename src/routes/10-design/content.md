@@ -28,7 +28,7 @@ Like wireframes, mockups are **static** and **non-interactive**.
 
 A **prototype** is "a sample of a part or product fabricated in advance of production to allow demonstration, evaluation, or testing of the product."
 
-*proto* (first, initial) + *typos* (image, impression)
+_proto_ (first, initial) + _typos_ (image, impression)
 
 We use prototypes to illustrate and evaluate our products and systems with end users, usability experts and team members.
 

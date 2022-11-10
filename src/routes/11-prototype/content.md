@@ -18,7 +18,7 @@ Fidelity: how faithful is the prototype to the final system's look and feel?
 
 ## Prototype Technologies
 
-from *early* to *late*:
+from _early_ to _late_:
 
 - paper: nothing is automated
 - presentation software: choose-your-own-next-screenf
@@ -30,7 +30,7 @@ from *early* to *late*:
 
 **Question:** How do you prototype a system that has not actually been implemented yet?
 
-**Answer:** *The Wizard of Oz*
+**Answer:** _The Wizard of Oz_
 
 ## Prototyping: Breadth vs. Depth
 
