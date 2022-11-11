@@ -3,13 +3,13 @@
 	import Page from '$lib/Page.svelte';
 
 	const pageDetails = {
-		page: '0',
+		page: '',
 		previousPage: '',
-		nextPage: '/',
-		title: 'Plan XXX | YYY',
+		nextPage: '',
+		title: '',
 		markdown: content,
 		tldr: '',
-		creation: ''
+		creation: ``
 	};
 </script>
 
