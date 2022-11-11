@@ -1,23 +1,29 @@
 <script lang="ts">
 	import { onMount } from 'svelte';
-	import markdown from './content.md?raw';
 	import SvelteMarkdown from 'svelte-markdown';
 
 	import Theme from '$lib/Theme.svelte';
 	import Scroll from '$lib/Scroll.svelte';
 	import Tldr from '$lib/Tldr.svelte';
-	import Pagination from '$lib/Pagination.svelte';
 	import Footer from '$lib/Footer.svelte';
 	import Navbar from '$lib/Navbar.svelte';
 	import DrawerSide from '$lib/DrawerSide.svelte';
 
-	let height: number;
-	let drawercontent: any;
+	export let tldr: string;
+	export let title: string;
+	export let markdown: string;
+	export let creation: string;
+
+	export let page: string;
+	export let previousPage: string;
+	export let nextPage: string;
 
 	onMount(() => {
 		setViewHeight();
 	});
 
+	let height: number;
+	let drawercontent: any;
 	function parseContentScroll() {
 		var scrolled = (drawercontent.scrollTop / height) * 100;
 		document.getElementById('progress-bar')!.style.width = scrolled + '%';
@@ -29,16 +35,10 @@
 		height = drawercontent.scrollTop;
 		drawercontent.scrollTop = currentScroll;
 	}
-
-	const pageDetails = {
-		page: '3',
-		previousPage: '/02-users',
-		nextPage: '/04-data'
-	};
 </script>
 
 <svelte:head>
-	<title>Plan | 03 - Research</title>
+	<title>{title}</title>
 </svelte:head>
 
 <div class="drawer">
@@ -48,22 +48,29 @@
 		<Theme />
 		<Navbar />
 
-		<Tldr summary="Types or research to keep in mind as you dig deeper into the problem at hand." />
+		{#if tldr}
+			<Tldr summary={tldr} />
+		{/if}
 
 		<div class="m-12 flex items-center text-left justify-center md:text-justify">
 			<article class="prose">
 				<SvelteMarkdown source={markdown} />
 				<div class="divider" />
 
-				<h2 class="mt-0">Creation of work</h2>
-				<ul>
-					<li>With the problem space and users in mind, create a research plan</li>
-				</ul>
-				<div class="divider" />
+				{#if creation}
+					<h2 class="mt-0">Creation of work</h2>
+					<SvelteMarkdown source={creation} />
+					<div class="divider" />
+				{/if}
 			</article>
 		</div>
 
-		<Pagination {...pageDetails} />
+		<div class="btn-group flex items-center text-justify justify-center mb-12">
+			<a class="btn {previousPage == '' ? 'btn-disabled' : ''}" href={previousPage}>«</a>
+			<button class="btn no-animation">Page {page}</button>
+			<a class="btn {nextPage == '' ? 'btn-disabled' : ''}" href={nextPage}>»</a>
+		</div>
+
 		<Footer />
 	</div>
 	<DrawerSide />
