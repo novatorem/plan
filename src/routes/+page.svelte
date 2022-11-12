@@ -18,8 +18,7 @@
 	<div class="hero">
 		<div class="hero-content text-center">
 			<div class="max-w-md">
-				<h1 class="text-5xl font-bold">Idea to Plan</h1>
-				<p class="py-6">General structure will be:</p>
+				<h1 class="text-2xl mb-2">General structure will be:</h1>
 				<ul class="steps steps-vertical">
 					<li data-content="🪢" class="step step-neutral">Too long; didn't read</li>
 					<li data-content="🧑‍💻" class="step step-neutral">Learning and definitions</li>

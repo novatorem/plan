@@ -29,13 +29,13 @@
 </script>
 
 <div id="hero" class="h-screen">
-	<div class="flex items-center text-left justify-center h-screen pl-12 pr-12 md:w-6/12 w-full">
-		<div class="items-center text-left justify-center sticky">
-			<h1 class="text-5xl font-bold inline leading-normal text-justify mb-0">
+	<div class="flex items-center text-left justify-center h-screen pl-12 pr-12 md:w-6/12 w-full z-100">
+		<div class="inline-table">
+			<h1 class="text-5xl font-bold inline leading-normal text-justify mb-0 mr-0 pr-0">
 				Idea for a{vowels[tick]}&nbsp;
 			</h1>
 			<h1
-				class="text-5xl font-bold inline bg-gradient-to-r bg-clip-text leading-normal text-transparent from-[#048eaa] via-blue-500 to-[#048eaa] animate-text"
+				class="text-5xl font-bold inline bg-gradient-to-r bg-clip-text leading-normal text-transparent from-[#048eaa] via-blue-500 to-[#048eaa] animate-text mr-0 pr-0"
 			>
 				{plans[tick]}
 			</h1>
@@ -49,4 +49,6 @@
 <svelte:head>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"></script>
 	<script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.globe.min.js"></script>
+	<!-- <script src="%sveltekit.assets%/three.min.js"></script>
+	<script src="%sveltekit.assets%/vanta.globe.min.js"></script> -->
 </svelte:head>
