@@ -52,15 +52,10 @@
 			summary="While gathering data to identify problems and users, we need to ensure that the correct information is retrieved and all participants are comfortable throughout."
 		/>
 
-		<div class="m-12 flex items-center text-justify justify-center">
+		<div class="m-12 flex items-center text-left justify-center md:text-justify">
 			<article class="prose">
 				<SvelteMarkdown source={markdown} />
 				<div class="divider" />
-
-				<!-- <h1>Creation of Work</h1>
-		<ul>
-			<li></li>
-		</ul> -->
 			</article>
 		</div>
 

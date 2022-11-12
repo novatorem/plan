@@ -52,7 +52,7 @@
 			summary="We want to ensure that the user has a satisfying experience, through understanding and iteration."
 		/>
 
-		<div class="m-12 flex items-center text-justify justify-center">
+		<div class="m-12 flex items-center text-left justify-center md:text-justify">
 			<article class="prose">
 				<SvelteMarkdown source={markdown} />
 				<div class="divider mb-0" />

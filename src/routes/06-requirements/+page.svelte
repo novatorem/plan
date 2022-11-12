@@ -33,7 +33,7 @@
 	const pageDetails = {
 		page: '6',
 		previousPage: '/05-evaluation',
-		nextPage: ''
+		nextPage: '/07-personas'
 	};
 </script>
 
@@ -48,17 +48,17 @@
 		<Theme />
 		<Navbar />
 
-		<Tldr summary="" />
+		<Tldr summary="Better outline what the system needs to accomplish to solve the problem at hand." />
 
-		<div class="m-12 flex items-center text-justify justify-center">
+		<div class="m-12 flex items-center text-left justify-center md:text-justify">
 			<article class="prose">
 				<SvelteMarkdown source={markdown} />
 				<div class="divider" />
 
-				<!-- <h1>Creation of Work</h1>
+				<h2 class="mt-0">Creation of work</h2>
 				<ul>
-					<li></li>
-				</ul> -->
+					<li>Create a questionnaire, interview, or your preferred data gathering method</li>
+				</ul>
 				<div class="divider" />
 			</article>
 		</div>

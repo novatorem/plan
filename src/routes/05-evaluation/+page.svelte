@@ -52,12 +52,12 @@
 			summary="Try using questionnaires or interviews to gather information from people, while being repectful of people's times."
 		/>
 
-		<div class="m-12 flex items-center text-justify justify-center">
+		<div class="m-12 flex items-center text-left justify-center md:text-justify">
 			<article class="prose">
 				<SvelteMarkdown source={markdown} />
 				<div class="divider" />
 
-				<h1>Creation of Work</h1>
+				<h2 class="mt-0">Creation of work</h2>
 				<ul>
 					<li>Create an informed consent form</li>
 					<li>Try writing down potential questions</li>

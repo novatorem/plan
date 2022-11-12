@@ -8,6 +8,7 @@
 			<li><a href="/04-data">04 | Data</a></li>
 			<li><a href="/05-evaluation">05 | Evaluation</a></li>
 			<li><a href="/06-requirements">06 | Requirements</a></li>
+			<li><a href="/07-personas">07 | Personas</a></li>
 		</ul>
 	</div>
 </div>
