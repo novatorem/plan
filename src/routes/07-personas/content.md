@@ -8,7 +8,7 @@ The persona will include a description not only of the goals, but also of the ch
 
 ## Persona elements
 
-- Group (e.g., airline passengers)
+- Group (e.g. university students)
 - Job titles/responsibilities
 - Demographics: age, education, ethnicity, family status
 - Goals and tasks
