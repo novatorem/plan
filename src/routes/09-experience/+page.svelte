@@ -48,7 +48,7 @@
 		<Theme />
 		<Navbar />
 
-		<Tldr summary="" />
+		<Tldr summary="Figure out what the experience will be like when interacting with your system." />
 
 		<div class="m-12 flex items-center text-left justify-center md:text-justify">
 			<article class="prose">
@@ -56,8 +56,14 @@
 				<div class="divider" />
 
 				<h2 class="mt-0">Creation of work</h2>
+				<p>Create an experience map while keeping the following questions in mind:</p>
 				<ul>
-					<li />
+					<li>Who is involved (users/personas)</li>
+					<li>How did they get here</li>
+					<li>What info do they have</li>
+					<li>Happy/frustrated with the system</li>
+					<li>What are they trying to do</li>
+					<li>What are they interacting with</li>
 				</ul>
 				<div class="divider" />
 			</article>
