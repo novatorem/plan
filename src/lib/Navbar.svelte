@@ -1,4 +1,10 @@
-<div class="navbar bg-neutral text-neutral-content">
+<script lang="ts">
+	import Theme from '$lib/Theme.svelte';
+	import Scroll from '$lib/Scroll.svelte';
+</script>
+
+<Scroll />
+<div class="navbar bg-neutral text-neutral-content fixed">
 	<div class="navbar-start">
 		<label for="my-drawer" tabindex="0" class="btn btn-ghost btn-circle">
 			<svg
@@ -33,5 +39,7 @@
 			>
 			Plan</a
 		>
+
+		<Theme />
 	</div>
 </div>

@@ -2,8 +2,6 @@
 	import { onMount } from 'svelte';
 	import SvelteMarkdown from 'svelte-markdown';
 
-	import Theme from '$lib/Theme.svelte';
-	import Scroll from '$lib/Scroll.svelte';
 	import Tldr from '$lib/Tldr.svelte';
 	import Footer from '$lib/Footer.svelte';
 	import Navbar from '$lib/Navbar.svelte';
@@ -44,19 +42,17 @@
 <div class="drawer">
 	<input id="my-drawer" type="checkbox" class="drawer-toggle" />
 	<div bind:this={drawercontent} on:scroll={parseContentScroll} class="drawer-content">
-		<Scroll />
-		<Theme />
 		<Navbar />
 
-		{#if tldr}
-			<Tldr summary={tldr} />
-		{/if}
-
-		<div class="m-12 flex items-center text-left justify-center md:text-justify">
+		<div class="m-12 mt-32 flex items-center text-left justify-center md:text-justify">
 			<article class="prose">
 				<SvelteMarkdown source={markdown} />
 				<div class="divider" />
 
+				{#if tldr}
+					<Tldr summary={tldr} />
+					<div class="divider" />
+				{/if}
 				{#if creation}
 					<h2 class="mt-0">Creation of work</h2>
 					<SvelteMarkdown source={creation} />
@@ -76,4 +72,4 @@
 	<DrawerSide />
 </div>
 
-<svelte:window on:resize={() => setViewHeight()} />
+<svelte:window on:resize={() => setViewHeight()} on:load={() => setViewHeight()} />
