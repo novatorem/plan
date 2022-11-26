@@ -19,8 +19,7 @@ The persona will include a description not only of the goals, but also of the ch
 Demonstrates key goals and behavior patterns. If the design fails for a primary persona, the product will fail.  
 Each primary persona may require a different interface.
 
-**Example** of a family electronic calendar.  
-Possible primary personas:
+For the **example** of a family electronic calendar, we have the possible primary personas:
 
 - Stacy: career mom
 - Kyle: stay-at-home dad

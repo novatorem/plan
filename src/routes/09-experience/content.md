@@ -6,10 +6,10 @@ An **experience map** is a tool to help you situate your eventual design for you
 
 The following outlines the steps to follow for a well rounded user experience.
 
-**Entice:** attract, build anticipation, and set expectations
-**Enter:** guide and orient into the experience
-**Engage:** ritual artifact engages senses and maintain connection
-**Exit:** guided to a new, transformed state
+**Entice:** attract, build anticipation, and set expectations  
+**Enter:** guide and orient into the experience  
+**Engage:** ritual artifact engages senses and maintain connection  
+**Exit:** guided to a new, transformed state  
 **Extend:** reminders keep you connected to experience
 
 ## Experience Model Example

@@ -33,7 +33,7 @@
 	const pageDetails = {
 		page: '9',
 		previousPage: '/08-checkpoint',
-		nextPage: '/'
+		nextPage: '/10-design'
 	};
 </script>
 
