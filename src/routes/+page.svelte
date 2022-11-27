@@ -1,8 +1,8 @@
 <script lang="ts">
-	import Hero from '$lib/components/Hero.svelte';
+	import Hero from '$lib/Hero.svelte';
 	import Theme from '$lib/Theme.svelte';
 	import Scroll from '$lib/Scroll.svelte';
-	import Footer from '$lib/components/Footer.svelte';
+	import Footer from '$lib/Footer.svelte';
 </script>
 
 <svelte:head>

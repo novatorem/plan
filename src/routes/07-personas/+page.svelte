@@ -5,11 +5,11 @@
 
 	import Theme from '$lib/Theme.svelte';
 	import Scroll from '$lib/Scroll.svelte';
-	import Tldr from '$lib/components/Tldr.svelte';
+	import Tldr from '$lib/Tldr.svelte';
 	import Pagination from '$lib/Pagination.svelte';
-	import Footer from '$lib/components/Footer.svelte';
-	import Navbar from '$lib/components/Navbar.svelte';
-	import DrawerSide from '$lib/components/DrawerSide.svelte';
+	import Footer from '$lib/Footer.svelte';
+	import Navbar from '$lib/Navbar.svelte';
+	import DrawerSide from '$lib/DrawerSide.svelte';
 
 	let height: number;
 	let drawercontent: any;
