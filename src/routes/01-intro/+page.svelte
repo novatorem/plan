@@ -6,7 +6,7 @@
 		page: '1',
 		previousPage: '',
 		nextPage: '/02-users',
-		title: 'Plan 01 | Intro',
+		title: 'Plan | 01 Intro',
 		markdown: content,
 		tldr: 'We want to ensure that the user has a satisfying experience, through understanding and iteration.',
 		creation: ``
