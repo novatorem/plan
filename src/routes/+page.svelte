@@ -19,9 +19,9 @@
 		<div class="hero-content text-center w-full block">
 			<div class="">
 				<h1 class="text-2xl m-4">General structure</h1>
-				<ul class="steps m-4">
-					<li data-content="🪢" class="step step-neutral">Too long; didn't read</li>
+				<ul class="steps steps-vertical m-4 md:steps-horizontal">
 					<li data-content="🧑‍💻" class="step step-neutral">Teachings</li>
+					<li data-content="🪢" class="step step-neutral">Too long; didn't read</li>
 					<li data-content="⚙️" class="step step-neutral">Creation of work</li>
 					<li data-content="🪙" class="step step-neutral">Sample work</li>
 				</ul>

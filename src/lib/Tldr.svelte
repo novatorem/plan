@@ -2,17 +2,16 @@
 	export let summary: string;
 </script>
 
-<div class="flex justify-center mx-12">
+<div class="flex justify-center my-12">
 	<article class="prose">
 		<details>
-			<summary class="btn flex items-center justify-center mt-12 text-justify"
+			<summary class="btn flex items-center justify-center text-justify"
 				>Too long; didn't read</summary
 			>
 
-			<p class="flex justify-center px-4 py-4 bg-base-200 rounded-md">
+			<p class="flex justify-center p-4 bg-base-200 rounded-md m-0 mt-2">
 				{summary}
 			</p>
-			<div class="divider mb-0" />
 		</details>
 	</article>
 </div>
