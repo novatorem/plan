@@ -1,0 +1,12 @@
+[
+	{
+		"question": "This is a question",
+		"correct_answer": "Correct answer",
+		"incorrect_answers": ["Wrong answer 1", "Wrong answer 2", "Wrong answer 3"]
+	},
+	{
+		"question": "This is another question",
+		"correct_answer": "Correct answer",
+		"incorrect_answers": ["Wrong answer 1", "Wrong answer 2", "Wrong answer 3"]
+	}
+]
