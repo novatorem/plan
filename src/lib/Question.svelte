@@ -2,7 +2,7 @@
 	import { score } from './store.js';
 
 	export let question: any;
-	export let nextQuestion: any;
+	export let nextQuestion: any = null;
 
 	let isCorrect: boolean;
 	let isAnswered = false;
@@ -44,12 +44,23 @@
 </h3>
 
 {#each allAnswers as answer, index}
-	<button
-		class="btn btn-outline my-6 justify-center text-justify block answer"
-		on:click={() => checkQuestion(answer.correct, index)}
-	>
-		{@html answer.answer}
-	</button>
+	<div class="my-2 justify-left text-justify flex items-center">
+		<button
+			class="btn btn-outline btn-circle btn-sm answer mx-4"
+			on:click={() => checkQuestion(answer.correct, index)}
+		>
+			<svg
+				xmlns="http://www.w3.org/2000/svg"
+				class="h-6 w-6"
+				fill="none"
+				viewBox="0 0 24 24"
+				stroke="currentColor"><polyline points="20 6 9 17 4 12" /></svg
+			>
+		</button>
+		<p>
+			{@html answer.answer}
+		</p>
+	</div>
 {/each}
 
 {#if isCorrect}

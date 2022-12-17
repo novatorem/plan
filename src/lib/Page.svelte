@@ -11,6 +11,7 @@
 	export let tldr: string;
 	export let quiz: string;
 	export let title: string;
+	export let sample: string;
 	export let markdown: string;
 	export let creation: string;
 
@@ -58,13 +59,18 @@
 					<Tldr summary={tldr} />
 					<div class="divider" />
 				{/if}
+				{#if quiz}
+					<Quiz quiz={JSON.parse(quiz)} />
+					<div class="divider" />
+				{/if}
 				{#if creation}
 					<h2 class="mt-0">Creation of work</h2>
 					<SvelteMarkdown source={creation} />
 					<div class="divider" />
 				{/if}
-				{#if quiz}
-					<Quiz quiz={JSON.parse(quiz)} />
+				{#if sample}
+					<h2 class="mt-0">Sample</h2>
+					<SvelteMarkdown source={sample} />
 					<div class="divider" />
 				{/if}
 			</article>
@@ -72,13 +78,13 @@
 
 		<div class="btn-group flex items-center text-justify justify-center mb-12">
 			<a class="btn {previousPage == '' ? 'btn-disabled' : ''}" href={previousPage}>«</a>
-			<button class="btn no-animation">Page {page}</button>
+			<label for="my-drawer" class="btn no-animation">Page {page}</label>
 			<a class="btn {nextPage == '' ? 'btn-disabled' : ''}" href={nextPage}>»</a>
 		</div>
 
 		<Footer />
 	</div>
-	<DrawerSide />
+	<DrawerSide currentPage={parseInt(page)} />
 </div>
 
 <svelte:window on:resize={() => setViewHeight()} on:load={() => setViewHeight()} />

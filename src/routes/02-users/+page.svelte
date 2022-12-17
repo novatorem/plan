@@ -1,5 +1,7 @@
 <script lang="ts">
 	import content from './content.md?raw';
+	import sample from './sample.md?raw';
+	import questions from './quiz.json?raw';
 	import Page from '$lib/Page.svelte';
 
 	const pageDetails = {
@@ -8,6 +10,8 @@
 		nextPage: '/03-research',
 		title: 'Plan | 02 - Users',
 		markdown: content,
+		sample: sample,
+		quiz: questions,
 		tldr: 'Define what makes a user and how to quantify their needs and wants.',
 		creation: `
 - Identify the target audience/user group  

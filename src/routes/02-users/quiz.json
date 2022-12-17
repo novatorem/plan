@@ -1,0 +1,12 @@
+[
+	{
+		"question": "Providing an aesthetic solution is more important than a safe one",
+		"correct_answer": "False",
+		"incorrect_answers": ["True"]
+	},
+	{
+		"question": "Which one of the following is a cultural trait?",
+		"correct_answer": "Language",
+		"incorrect_answers": ["Attitude", "Reading level", "Weight"]
+	}
+]
