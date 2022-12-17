@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { onMount } from 'svelte';
+	import { onMount, tick, afterUpdate } from 'svelte';
 	import SvelteMarkdown from 'svelte-markdown';
 
 	import Tldr from '$lib/Tldr.svelte';
@@ -8,32 +8,30 @@
 	import Navbar from '$lib/Navbar.svelte';
 	import DrawerSide from '$lib/DrawerSide.svelte';
 
-	export let tldr: string;
-	export let quiz: string;
-	export let title: string;
-	export let sample: string;
-	export let markdown: string;
-	export let creation: string;
+	export let tldr: string = '';
+	export let quiz: string = '';
+	export let title: string = '';
+	export let sample: string = '';
+	export let markdown: string = '';
+	export let creation: string = '';
 
-	export let page: string;
-	export let previousPage: string;
-	export let nextPage: string;
+	export let page: string = '';
+	export let previousPage: string = '';
+	export let nextPage: string = '';
 
 	onMount(() => {
 		setViewHeight();
 	});
 
 	let height: number;
-	let drawerContent: any;
+	let drawerContent: HTMLElement;
 	function parseContentScroll() {
-		// Due to the usage of drawers and the hacking of scroll, we need to reset view height every time the user scrolls
-		// In a perfect world, this hack wouldn't exist
-		setViewHeight();
 		var scrolled = (drawerContent.scrollTop / height) * 100;
 		document.getElementById('progress-bar')!.style.width = scrolled + '%';
 	}
 
-	function setViewHeight() {
+	async function setViewHeight() {
+		await tick();
 		var currentScroll = drawerContent.scrollTop;
 		drawerContent.scrollTop = Number.MAX_SAFE_INTEGER;
 		height = drawerContent.scrollTop;
@@ -87,4 +85,8 @@
 	<DrawerSide currentPage={parseInt(page)} />
 </div>
 
-<svelte:window on:resize={() => setViewHeight()} on:load={() => setViewHeight()} />
+<svelte:window
+	on:resize={() => setViewHeight()}
+	on:load={() => setViewHeight()}
+	on:click={() => setViewHeight()}
+/>
