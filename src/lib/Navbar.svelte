@@ -4,7 +4,7 @@
 </script>
 
 <Scroll />
-<div class="navbar bg-neutral text-neutral-content fixed">
+<div class="navbar bg-neutral text-neutral-content fixed z-50">
 	<div class="navbar-start">
 		<label for="my-drawer" tabindex="0" class="btn btn-ghost btn-circle">
 			<svg

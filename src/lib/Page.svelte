@@ -3,11 +3,13 @@
 	import SvelteMarkdown from 'svelte-markdown';
 
 	import Tldr from '$lib/Tldr.svelte';
+	import Quiz from '$lib/Quiz.svelte';
 	import Footer from '$lib/Footer.svelte';
 	import Navbar from '$lib/Navbar.svelte';
 	import DrawerSide from '$lib/DrawerSide.svelte';
 
 	export let tldr: string;
+	export let quiz: string;
 	export let title: string;
 	export let markdown: string;
 	export let creation: string;
@@ -21,17 +23,17 @@
 	});
 
 	let height: number;
-	let drawercontent: any;
+	let drawerContent: any;
 	function parseContentScroll() {
-		var scrolled = (drawercontent.scrollTop / height) * 100;
+		var scrolled = (drawerContent.scrollTop / height) * 100;
 		document.getElementById('progress-bar')!.style.width = scrolled + '%';
 	}
 
 	function setViewHeight() {
-		var currentScroll = drawercontent.scrollTop;
-		drawercontent.scrollTop = Number.MAX_SAFE_INTEGER;
-		height = drawercontent.scrollTop;
-		drawercontent.scrollTop = currentScroll;
+		var currentScroll = drawerContent.scrollTop;
+		drawerContent.scrollTop = Number.MAX_SAFE_INTEGER;
+		height = drawerContent.scrollTop;
+		drawerContent.scrollTop = currentScroll;
 	}
 </script>
 
@@ -41,7 +43,7 @@
 
 <div class="drawer">
 	<input id="my-drawer" type="checkbox" class="drawer-toggle" />
-	<div bind:this={drawercontent} on:scroll={parseContentScroll} class="drawer-content">
+	<div bind:this={drawerContent} on:scroll={parseContentScroll} class="drawer-content">
 		<Navbar />
 
 		<div class="m-12 mt-32 flex items-center text-left justify-center md:text-justify">
@@ -56,6 +58,10 @@
 				{#if creation}
 					<h2 class="mt-0">Creation of work</h2>
 					<SvelteMarkdown source={creation} />
+					<div class="divider" />
+				{/if}
+				{#if quiz}
+					<Quiz quiz={JSON.parse(quiz)} />
 					<div class="divider" />
 				{/if}
 			</article>
