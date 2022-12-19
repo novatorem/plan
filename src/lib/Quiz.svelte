@@ -30,16 +30,12 @@
 		<button class="btn w-full mb-6" on:click={reset}>Reset</button>
 	{/if}
 
-	<div class="divider">Progress</div>
+	<div class="divider">
+		Score: {$score}
+</div>
 
 	<div class="flex items-center">
-		<div class="stats bg-base-200 shadow mr-12">
-			<div class="stat place-items-center">
-				<div class="stat-title">Score</div>
-				<div class="stat-value">{$score}</div>
-			</div>
-		</div>
 
-		<progress class="progress progress-primary w-10/12" value={activeQuestion} max={quiz.length} />
+		<progress class="progress progress-primary w-full" value={activeQuestion} max={quiz.length} />
 	</div>
 </div>

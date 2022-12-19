@@ -25,6 +25,9 @@
 	let height: number;
 	let drawerContent: any;
 	function parseContentScroll() {
+		// Due to the usage of drawers and the hacking of scroll, we need to reset view height every time the user scrolls
+		// In a perfect world, this hack wouldn't exist
+		setViewHeight()
 		var scrolled = (drawerContent.scrollTop / height) * 100;
 		document.getElementById('progress-bar')!.style.width = scrolled + '%';
 	}
