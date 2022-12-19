@@ -32,10 +32,9 @@
 
 	<div class="divider">
 		Score: {$score}
-</div>
+	</div>
 
 	<div class="flex items-center">
-
 		<progress class="progress progress-primary w-full" value={activeQuestion} max={quiz.length} />
 	</div>
 </div>
