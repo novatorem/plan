@@ -1,6 +1,5 @@
 <script lang="ts">
 	import Question from '$lib/Question.svelte';
-	import { fade, fly } from 'svelte/transition';
 	import { score } from './store.js';
 
 	export let quiz: any;
@@ -35,6 +34,6 @@
 	</div>
 
 	<div class="flex items-center">
-		<progress class="progress progress-primary w-full" value={activeQuestion} max={quiz.length} />
+		<progress class="progress progress-primary w-full" value={$score} max={quiz.length} />
 	</div>
 </div>

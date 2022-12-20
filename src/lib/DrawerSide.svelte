@@ -1,6 +1,18 @@
+<script lang="ts">
+	import { onMount } from 'svelte';
+
+	export let currentPage: number;
+
+	onMount(async () => {
+		var pages = document.querySelectorAll('.drawer-pages li');
+		var page = pages[currentPage - 1];
+		page.classList.add('bg-base-200');
+	});
+</script>
+
 <div class="drawer-side">
 	<label for="my-drawer" class="drawer-overlay" />
-	<div class="w-80">
+	<div class="drawer-pages w-80">
 		<ul class="menu p-4 bg-base-100 text-base-content h-full">
 			<li><a href="/01-intro">01 | Intro</a></li>
 			<li><a href="/02-users">02 | Users</a></li>
@@ -16,3 +28,9 @@
 		</ul>
 	</div>
 </div>
+
+<style>
+	li {
+		border-radius: 5px;
+	}
+</style>
