@@ -29,11 +29,13 @@
 		isAnswered = true;
 		isCorrect = correct;
 		if (correct) score.update((currentValue) => currentValue + 1);
+
 		var collection = Array.from(document.getElementsByClassName('answer'));
 		collection.forEach((element) => {
-			element.classList.remove('btn-success');
 			element.classList.remove('btn-error');
+			element.classList.remove('btn-success');
 		});
+
 		var element = collection[index];
 		element.classList.add(correct ? 'btn-success' : 'btn-error');
 	}
@@ -46,17 +48,9 @@
 {#each allAnswers as answer, index}
 	<div class="my-2 justify-left text-justify flex items-center">
 		<button
-			class="btn btn-outline btn-circle btn-sm answer mx-4"
+			class="btn btn-square btn-sm answer mx-4"
 			on:click={() => checkQuestion(answer.correct, index)}
-		>
-			<svg
-				xmlns="http://www.w3.org/2000/svg"
-				class="h-6 w-6"
-				fill="none"
-				viewBox="0 0 24 24"
-				stroke="currentColor"><polyline points="20 6 9 17 4 12" /></svg
-			>
-		</button>
+		/>
 		<p>
 			{@html answer.answer}
 		</p>
