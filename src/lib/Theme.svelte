@@ -35,7 +35,7 @@
 
 <div class="h-0 m-0">
 	<label
-		class="z-10 swap swap-rotate cursor-pointer h-6 w-6 absolute top-5 right-6 rounded-full duration-300 content-['']"
+		class="z-10 swap swap-rotate cursor-pointer h-6 w-6 fixed top-5 right-6 rounded-full duration-300 content-['']"
 		for="theme-toggle"
 	>
 		<input
