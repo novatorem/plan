@@ -14,20 +14,91 @@
 
 <Hero />
 
-<div class="flex items-center text-justify justify-center m-12">
-	<div class="hero">
-		<div class="hero-content text-center w-full block">
-			<div class="">
-				<h1 class="text-2xl m-4">General structure</h1>
-				<ul class="steps steps-vertical m-4 md:steps-horizontal">
-					<li data-content="" class="step step-neutral step-icon-teaching">Teachings</li>
-					<li data-content="" class="step step-neutral step-icon-tldr">Too long; didn't read</li>
-					<li data-content="" class="step step-neutral step-icon-knowledge">Knowledge check</li>
-					<li data-content="" class="step step-neutral step-icon-creation">Creation of work</li>
-					<li data-content="" class="step step-neutral step-icon-sample">Sample work</li>
-				</ul>
+<div class="hero min-h-screen bg-base-200">
+	<div class="hero-content flex-col lg:flex-row">
+		<img
+			src="https://images.unsplash.com/photo-1516546453174-5e1098a4b4af"
+			class="max-w-sm rounded-lg shadow-2xl"
+			alt="Person writing in a journal"
+		/>
+		<div class="ml-6">
+			<h1 class="text-5xl font-bold">Got an idea?</h1>
+			<p class="py-6">...</p>
+		</div>
+	</div>
+</div>
+
+<div class="hero min-h-screen bg-base-300">
+	<div class="hero-content flex-col lg:flex-row-reverse">
+		<img
+			src="https://images.unsplash.com/photo-1589586502913-822aa129d420"
+			class="max-w-sm rounded-lg shadow-2xl"
+			alt="3D model of a cityscape"
+		/>
+		<div class="mr-6">
+			<h1 class="text-5xl font-bold">Turn it into a plan!</h1>
+			<p class="py-6">...</p>
+		</div>
+	</div>
+</div>
+
+<div class="flex items-center text-justify justify-center p-12 bg-base-200 min-h-screen">
+	<div class="flex flex-col w-full">
+		<div class="w-full">
+			<div class="hero">
+				<div class="hero-content md:text-center w-full block">
+					<h1 class="text-3xl">General structure</h1>
+					<ul class="steps steps-vertical md:m-12 md:steps-horizontal">
+						<li data-content="" class="step step-neutral step-icon-teaching">Teachings</li>
+						<li data-content="" class="step step-neutral step-icon-tldr">Too long; didn't read</li>
+						<li data-content="" class="step step-neutral step-icon-knowledge">Knowledge check</li>
+						<li data-content="" class="step step-neutral step-icon-creation">Creation of work</li>
+						<li data-content="" class="step step-neutral step-icon-sample">Sample work</li>
+					</ul>
+				</div>
 			</div>
-			<a class="btn btn-wide mt-6" href="/01-intro">Begin</a>
+		</div>
+		<div class="divider w-1/2 self-center" />
+		<div class="overflow-x-auto items-center w-full mt-12">
+			<table class="table table-zebra mx-auto my-0">
+				<tbody>
+					<tr>
+						<td>Teachings</td>
+						<td>An educational text that outlines what we aim to learn and understand</td>
+					</tr>
+					<tr>
+						<td>TL;DR</td>
+						<td>Short form summary of the above for those not interested in the full format</td>
+					</tr>
+					<tr>
+						<td>Knowledge Check</td>
+						<td>Quick and optional quiz for you to grasp your understanding</td>
+					</tr>
+					<tr>
+						<td>Creation</td>
+						<td>The tasks to accomplish before moving forward onto the next section</td>
+					</tr>
+					<tr>
+						<td>Sample</td>
+						<td>An example completed task to provide a reference point</td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+	</div>
+</div>
+
+<div class="hero min-h-screen bg-base-300">
+	<div class="hero-content text-center">
+		<div class="max-w-md">
+			<h1 class="text-5xl font-bold">Structure your thoughts</h1>
+			<p class="py-6">
+				Ready to give it a shot? If you ever feel overwhelmed, remember that you can skim, stick to
+				the tl;drs, or complete this over a period of time. The completion of this program can take
+				approximately four month, so it's always fair to peruse at your leisure.
+			</p>
+
+			<a class="btn btn-wide mt-6 btn-primary" href="/01-intro">Begin</a>
 		</div>
 	</div>
 </div>
@@ -37,7 +108,7 @@
 <style>
 	.step,
 	.steps {
-		text-align: left;
+		text-align: left !important;
 	}
 
 	.step-icon-teaching:after,
