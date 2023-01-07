@@ -37,6 +37,7 @@
 		});
 
 		var element = collection[index];
+		if (correct) element.getElementsByClassName('svg')[0].classList.remove('hidden');
 		element.classList.add(correct ? 'btn-success' : 'btn-error');
 	}
 </script>
@@ -50,7 +51,17 @@
 		<button
 			class="btn btn-square btn-sm answer mx-4"
 			on:click={() => checkQuestion(answer.correct, index)}
-		/>
+		>
+			{#if answer.correct}
+				<svg
+					xmlns="http://www.w3.org/2000/svg"
+					class="h-6 w-6 svg hidden"
+					fill="none"
+					viewBox="0 0 24 24"
+					stroke="currentColor"><polyline points="20 6 9 17 4 12" /></svg
+				>
+			{/if}
+		</button>
 		<p>
 			{@html answer.answer}
 		</p>
