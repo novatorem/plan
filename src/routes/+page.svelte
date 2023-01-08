@@ -17,13 +17,22 @@
 <div class="hero min-h-screen bg-base-200">
 	<div class="hero-content flex-col lg:flex-row">
 		<img
-			src="https://images.unsplash.com/photo-1516546453174-5e1098a4b4af"
-			class="max-w-sm rounded-lg shadow-2xl"
+			src="https://source.unsplash.com/qoAIlAmLJBU/250x500"
+			class="max-w-sm rounded-lg shadow-2xl mt-6"
 			alt="Person writing in a journal"
 		/>
-		<div class="ml-6">
+		<div class="m-6">
 			<h1 class="text-5xl font-bold">Got an idea?</h1>
-			<p class="py-6">...</p>
+			<p class="py-6">
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+				labore et dolore magna aliqua. Maecenas ultricies mi eget mauris pharetra et ultrices.
+				Vestibulum lectus mauris ultrices eros in cursus turpis massa. Dui sapien eget mi proin sed
+				libero. Rhoncus aenean vel elit scelerisque mauris pellentesque pulvinar. Semper viverra nam
+				libero justo laoreet sit amet cursus. Semper feugiat nibh sed pulvinar proin. Turpis massa
+				sed elementum tempus egestas sed sed. Sem fringilla ut morbi tincidunt. Feugiat nibh sed
+				pulvinar proin gravida hendrerit lectus a. Nulla facilisi cras fermentum odio. Vel elit
+				scelerisque mauris pellentesque pulvinar pellentesque habitant morbi.
+			</p>
 		</div>
 	</div>
 </div>
@@ -31,13 +40,22 @@
 <div class="hero min-h-screen bg-base-300">
 	<div class="hero-content flex-col lg:flex-row-reverse">
 		<img
-			src="https://images.unsplash.com/photo-1589586502913-822aa129d420"
-			class="max-w-sm rounded-lg shadow-2xl"
+			src="https://source.unsplash.com/nflhU2kZFOo/250x500"
+			class="max-w-sm rounded-lg shadow-2xl mt-6"
 			alt="3D model of a cityscape"
 		/>
-		<div class="mr-6">
-			<h1 class="text-5xl font-bold">Turn it into a plan!</h1>
-			<p class="py-6">...</p>
+		<div class="m-6">
+			<h1 class="text-5xl font-bold">Plan it out!</h1>
+			<p class="py-6">
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+				labore et dolore magna aliqua. Maecenas ultricies mi eget mauris pharetra et ultrices.
+				Vestibulum lectus mauris ultrices eros in cursus turpis massa. Dui sapien eget mi proin sed
+				libero. Rhoncus aenean vel elit scelerisque mauris pellentesque pulvinar. Semper viverra nam
+				libero justo laoreet sit amet cursus. Semper feugiat nibh sed pulvinar proin. Turpis massa
+				sed elementum tempus egestas sed sed. Sem fringilla ut morbi tincidunt. Feugiat nibh sed
+				pulvinar proin gravida hendrerit lectus a. Nulla facilisi cras fermentum odio. Vel elit
+				scelerisque mauris pellentesque pulvinar pellentesque habitant morbi.
+			</p>
 		</div>
 	</div>
 </div>
@@ -95,9 +113,8 @@
 			<p class="py-6">
 				Ready to give it a shot? If you ever feel overwhelmed, remember that you can skim, stick to
 				the tl;drs, or complete this over a period of time. The completion of this program can take
-				approximately four month, so it's always fair to peruse at your leisure.
+				approximately four months, so it's always fair to peruse at your leisure.
 			</p>
-
 			<a class="btn btn-wide mt-6 btn-primary" href="/01-intro">Begin</a>
 		</div>
 	</div>
