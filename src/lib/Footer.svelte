@@ -16,7 +16,28 @@
 		>
 		<p>Copyleft {new Date().getFullYear()} - Novatorem</p>
 	</div>
+
 	<div class="grid-flow-col gap-4">
+		<label for="my-modal-4" class="link">
+			<svg
+				xmlns="http://www.w3.org/2000/svg"
+				width="24"
+				height="24"
+				viewBox="0 0 24 24"
+				fill="none"
+				stroke="currentColor"
+				stroke-width="2"
+				stroke-linecap="round"
+				stroke-linejoin="round"
+				><path d="M2 15c6.667-6 13.333 0 20-6" /><path
+					d="M9 22c1.798-1.998 2.518-3.995 2.807-5.993"
+				/><path d="M15 2c-1.798 1.998-2.518 3.995-2.807 5.993" /><path d="m17 6-2.5-2.5" /><path
+					d="m14 8-1-1"
+				/><path d="m7 18 2.5 2.5" /><path d="m3.5 14.5.5.5" /><path d="m20 9 .5.5" /><path
+					d="m6.5 12.5 1 1"
+				/><path d="m16.5 10.5 1 1" /><path d="m10 16 1.5 1.5" /></svg
+			>
+		</label>
 		<a href="https://mail.novac.dev" aria-label="E-mail the developer"
 			><svg
 				xmlns="http://www.w3.org/2000/svg"
@@ -46,4 +67,22 @@
 			>
 		</a>
 	</div>
+
+	<input type="checkbox" id="my-modal-4" class="modal-toggle" />
+	<label for="my-modal-4" class="modal modal-middle cursor-pointer">
+		<label class="modal-box relative" for="">
+			<label for="my-modal-4" class="btn btn-sm btn-circle absolute right-2 top-2">✕</label>
+			<h3 class="text-lg font-bold">Credits</h3>
+			<p class="py-4">
+				- Icons from <a class="link link-info" href="https://lucide.dev/">Lucide</a><br />
+				-
+				<a class="link link-info" href="https://artsci.calendar.utoronto.ca/course/csc318h1"
+					>CSC318</a
+				>
+				course from UofT<br />
+				- Images thanks to the creators at
+				<a class="link link-info" href="https://unsplash.com/">Unsplash</a>
+			</p>
+		</label>
+	</label>
 </footer>
