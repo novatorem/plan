@@ -24,14 +24,11 @@
 		<div class="m-6">
 			<h1 class="text-5xl font-bold">Got an idea?</h1>
 			<p class="py-6">
-				Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-				labore et dolore magna aliqua. Maecenas ultricies mi eget mauris pharetra et ultrices.
-				Vestibulum lectus mauris ultrices eros in cursus turpis massa. Dui sapien eget mi proin sed
-				libero. Rhoncus aenean vel elit scelerisque mauris pellentesque pulvinar. Semper viverra nam
-				libero justo laoreet sit amet cursus. Semper feugiat nibh sed pulvinar proin. Turpis massa
-				sed elementum tempus egestas sed sed. Sem fringilla ut morbi tincidunt. Feugiat nibh sed
-				pulvinar proin gravida hendrerit lectus a. Nulla facilisi cras fermentum odio. Vel elit
-				scelerisque mauris pellentesque pulvinar pellentesque habitant morbi.
+				Having an idea is an exciting and potentially life-changing moment. It can be a spark of
+				inspiration that sets you on a new path, or the catalyst for a project that has the
+				potential to make a real impact. But ideas, by themselves, are just the beginning. Turning
+				an idea into a plan requires hard work, determination, and a clear vision of what you want
+				to achieve.
 			</p>
 		</div>
 	</div>
@@ -47,14 +44,12 @@
 		<div class="m-6">
 			<h1 class="text-5xl font-bold">Plan it out!</h1>
 			<p class="py-6">
-				Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-				labore et dolore magna aliqua. Maecenas ultricies mi eget mauris pharetra et ultrices.
-				Vestibulum lectus mauris ultrices eros in cursus turpis massa. Dui sapien eget mi proin sed
-				libero. Rhoncus aenean vel elit scelerisque mauris pellentesque pulvinar. Semper viverra nam
-				libero justo laoreet sit amet cursus. Semper feugiat nibh sed pulvinar proin. Turpis massa
-				sed elementum tempus egestas sed sed. Sem fringilla ut morbi tincidunt. Feugiat nibh sed
-				pulvinar proin gravida hendrerit lectus a. Nulla facilisi cras fermentum odio. Vel elit
-				scelerisque mauris pellentesque pulvinar pellentesque habitant morbi.
+				That's where our website comes in. We're here to help you take that first step, and guide
+				you through the process of turning your idea into a solid plan. Whether you have a business
+				concept, a creative project, or something else entirely, our resources can help you develop
+				and refine your idea, create a roadmap to success, and navigate the challenges that may
+				arise along the way. So don't let your idea stay just an idea - let us help you turn it into
+				a reality.
 			</p>
 		</div>
 	</div>
@@ -115,7 +110,7 @@
 				the tl;drs, or complete this over a period of time. The completion of this program can take
 				approximately four months, so it's always fair to peruse at your leisure.
 			</p>
-			<a class="btn btn-wide mt-6 btn-primary" href="/01-intro">Begin</a>
+			<a class="btn btn-wide mt-6 btn-info" href="/01-intro">Begin</a>
 		</div>
 	</div>
 </div>
