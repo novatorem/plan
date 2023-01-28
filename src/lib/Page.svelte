@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { onMount, tick, afterUpdate } from 'svelte';
+	import { onMount, tick } from 'svelte';
 	import SvelteMarkdown from 'svelte-markdown';
 
 	import Tldr from '$lib/Tldr.svelte';
@@ -57,10 +57,6 @@
 					<Tldr summary={tldr} />
 					<div class="divider" />
 				{/if}
-				{#if quiz}
-					<Quiz quiz={JSON.parse(quiz)} />
-					<div class="divider" />
-				{/if}
 				{#if creation}
 					<h2 class="mt-0">Creation of work</h2>
 					<SvelteMarkdown source={creation} />
@@ -69,6 +65,10 @@
 				{#if sample}
 					<h2 class="mt-0">Sample</h2>
 					<SvelteMarkdown source={sample} />
+					<div class="divider" />
+				{/if}
+				{#if quiz}
+					<Quiz quiz={JSON.parse(quiz)} />
 					<div class="divider" />
 				{/if}
 			</article>

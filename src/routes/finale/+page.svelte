@@ -2,6 +2,7 @@
 	import Theme from '$lib/Theme.svelte';
 	import Scroll from '$lib/Scroll.svelte';
 	import Footer from '$lib/Footer.svelte';
+	import { Confetti } from 'svelte-confetti';
 </script>
 
 <svelte:head>
@@ -32,14 +33,27 @@
 			Plan</a
 		>
 	</div>
-	<div class="navbar-center">
-		<h1 class="normal-case text-xl">The Finale</h1>
-	</div>
+</div>
+
+<div
+	class="fixed left-0 h-screen w-screen flex justify-center overflow-hidden pointer-events-none"
+	style="top: -50px"
+>
+	<Confetti
+		x={[-5, 5]}
+		y={[0, 0.1]}
+		delay={[500, 2000]}
+		infinite
+		duration={5000}
+		amount={10}
+		fallDistance="100vh"
+	/>
 </div>
 
 <div class="hero min-h-screen bg-base-200">
-	<div class="hero-content text-center">
+	<div class="hero-content text-justify">
 		<div class="w-xl">
+			<h1 class="text-3xl text-center">The Finale</h1>
 			<p class="py-6 text-xl">
 				Congratulations on reaching the end of this website! It's great that you have taken the time
 				to go through our resources and information on turning your idea into a solid plan. Starting
