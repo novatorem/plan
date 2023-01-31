@@ -3,10 +3,10 @@
 	import Page from '$lib/Page.svelte';
 
 	const pageDetails = {
-		page: '11',
-		previousPage: '/10-design',
-		nextPage: '/12-conceptual',
-		title: 'Plan | 11 - Prototype',
+		page: '12',
+		previousPage: '/11-prototype',
+		nextPage: '',
+		title: 'Plan | 12 - Conceptual Models',
 		markdown: content,
 		tldr: '',
 		creation: ``

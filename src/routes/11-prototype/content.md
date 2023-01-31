@@ -4,27 +4,27 @@
 
 Fidelity: how faithful is the prototype to the final system's look and feel?
 
-**low fidelity:**
+**Low fidelity:**
 
-- does not resemble final product, operation slower
-- faster to create and iterate
-- obviously low-investment, encourages experimentation
+- Does not resemble final product, operation slower
+- Faster to create and iterate
+- Low-investment, encourages experimentation
 
-**high fidelity:**
+**High fidelity:**
 
-- looks and operates like real product
-- more accurate: comments related to final design
-- false sense of completeness and focus on details
+- Looks and operates like real product
+- More accurate
+- False sense of completeness and focus on details
 
 ## Prototype Technologies
 
-from _early_ to _late_:
+From _early_ to _late_:
 
-- paper: nothing is automated
-- presentation software: choose-your-own-next-screenf
-- dedicated prototyping tools (variable)
+- Paper: nothing is automated
+- Presentation software: choose-your-own-next-screen
+- Dedicated prototyping tools (variable)
 - HTML/CSS/JS: interactive links but no "guts"
-- final system platform/technology: interaction + guts
+- Final system platform/technology: interaction + guts
 
 ## Prototyping Functionality
 
@@ -36,7 +36,7 @@ from _early_ to _late_:
 
 - **Breadth:** demonstrates the amount of features, options and commands. Each feature is rendered, but cannot be followed very far.
 - **Depth:** shows interactivity and functionality. All but a few critical features are inactive "dead ends".
-- "horizontal prototypes (favors features)" vs. "vertical prototypes (favors functionalities)"
+- "Horizontal prototypes (favors features)" vs. "Vertical prototypes (favors functionalities)"
 
 ## Prototyping Scenarios
 
@@ -46,33 +46,15 @@ Constrain user interaction and the prototype implementation to yield the type of
 
 Why/what are you prototyping?
 
-- proof of concept
-- visual design, screen layout, information display.
-- form & physical attributes
-- interaction, workflow, tasks
-- functional model
-- difficult, controversial, critical areas
+- Proof of concept
+- Visual design, screen layout, information display.
+- Form & physical attributes
+- Interaction, workflow, tasks
+- Functional model
+- Difficult, controversial, critical areas
 
 ## Paper prototyping
 
-- paper is cheap, easy and universally understood
-- paper is instantly customizable, malleable, and unconstraining
-- encourages creativity
-
-## Conceptual model
-
-A **conceptual model** is "a high-level description of how a system is organized and operates"
-
-Designers has a conceptual model for their system, what it's supposed to do, how it works, etc.
-
-It enables "designer to straighten out their thinking before they start laying out their widgets"
-
-Forming a conceptual model for your system is an essential step in designing for it.
-
-A designer's conceptual model is structured, logical and consistent. They know everything about their system and how it is supposed to work.
-
-Users form their own models which are based solely on interacting with the system.
-
-Users' models are ad hoc, informal and incomplete.
-
-Sometimes they're incoherent, illogical, emotional, even superstitious (fear of upgrades).
+- Paper is cheap, easy and universally understood
+- Paper is instantly customizable, malleable, and unconstrained
+- Encourages creativity
