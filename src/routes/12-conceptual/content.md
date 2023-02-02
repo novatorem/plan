@@ -31,7 +31,7 @@ They are clues to understanding the product or service, some sign of what it is 
 
 They limit the set of possible actions with an object or system to make proper use more likely. This can come in the form of physical interface constraints (e.g. single sided USB) or digital constraints (e.g. confirmation dialogue).
 
-They help make *perceived* affordances a subset of *safe* affordances.
+They help make _perceived_ affordances a subset of _safe_ affordances.
 
 ### Mapping Targets
 
