@@ -25,6 +25,7 @@
 			<li><a href="/09-experience">09 | Experience</a></li>
 			<li><a href="/10-design">10 | Design</a></li>
 			<li><a href="/11-prototype">11 | Prototype</a></li>
+			<li><a href="/12-conceptual">12 | Conceptual Design</a></li>
 		</ul>
 	</div>
 </div>
