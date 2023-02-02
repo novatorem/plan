@@ -25,13 +25,13 @@ They are the actions possible by a specific agent on a specific environment. Per
 
 ### Signifiers
 
-They are clues to understanding the product or service, some sign of what it is for, what is happening and what the alternative actions are. Our ability to perceive and decode signifiers depends heavily on prior information: past experience, familiarity and cultural clues. Note thatnNot all signifiers are deliberate (e.g. jammed vending machine).
+They are clues to understanding the product or service, some sign of what it is for, what is happening and what the alternative actions are. Our ability to perceive and decode signifiers depends heavily on prior information: past experience, familiarity and cultural clues. Note that not all signifiers are deliberate (e.g. jammed vending machine).
 
 ### Constraints
 
 They limit the set of possible actions with an object or system to make proper use more likely. This can come in the form of physical interface constraints (e.g. single sided USB) or digital constraints (e.g. confirmation dialogue).
 
-They help make *perceived* affordances a subset of *safe* affordances.
+They help make _perceived_ affordances a subset of _safe_ affordances.
 
 ### Mapping Targets
 
