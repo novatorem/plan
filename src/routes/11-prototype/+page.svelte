@@ -5,7 +5,7 @@
 	const pageDetails = {
 		page: '11',
 		previousPage: '/10-design',
-		nextPage: '',
+		nextPage: '/12-conceptual',
 		title: 'Plan | 11 - Prototype',
 		markdown: content,
 		tldr: '',
