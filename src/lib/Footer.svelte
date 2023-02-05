@@ -74,12 +74,16 @@
 			<label for="my-modal-4" class="btn btn-sm btn-circle absolute right-2 top-2">✕</label>
 			<h3 class="text-lg font-bold">Credits</h3>
 			<p class="py-4">
+				- Coded in <a class="link link-info" href="https://kit.svelte.dev/">Svelte</a><br />
 				- Icons from <a class="link link-info" href="https://lucide.dev/">Lucide</a><br />
+				- <a class="link link-info" href="https://daisyui.com/">DaisyUI</a> components<br />
 				-
 				<a class="link link-info" href="https://artsci.calendar.utoronto.ca/course/csc318h1"
 					>CSC318</a
 				>
 				course from UofT<br />
+				- Styling through
+				<a class="link link-info" href="https://tailwindcss.com/">Tailwind CSS</a><br />
 				- Images thanks to the creators at
 				<a class="link link-info" href="https://unsplash.com/">Unsplash</a>
 			</p>

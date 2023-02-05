@@ -26,9 +26,10 @@
 	}
 
 	function checkQuestion(correct: boolean, index: number) {
+		if (correct && !isAnswered) score.update((currentValue) => currentValue + 1);
+
 		isAnswered = true;
 		isCorrect = correct;
-		if (correct) score.update((currentValue) => currentValue + 1);
 
 		var collection = Array.from(document.getElementsByClassName('answer'));
 		collection.forEach((element) => {
