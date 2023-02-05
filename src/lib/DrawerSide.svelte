@@ -26,6 +26,8 @@
 			<li><a href="/10-design">10 | Design</a></li>
 			<li><a href="/11-prototype">11 | Prototype</a></li>
 			<li><a href="/12-conceptual">12 | Conceptual Design</a></li>
+			<li><a href="/13-heuristics">13 | Heuristics</a></li>
+			<li><a href="/14-pam">14 | PAM</a></li>
 		</ul>
 	</div>
 </div>
