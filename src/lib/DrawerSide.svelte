@@ -27,7 +27,9 @@
 			<li><a href="/11-prototype">11 | Prototype</a></li>
 			<li><a href="/12-conceptual">12 | Conceptual Design</a></li>
 			<li><a href="/13-heuristics">13 | Heuristics</a></li>
-			<li><a href="/14-pam">14 | PAM</a></li>
+			<li><a href="/14-perception">14 | Perception</a></li>
+			<li><a href="/15-attention">15 | Attention</a></li>
+			<li><a href="/16-memory">16 | Memory</a></li>
 		</ul>
 	</div>
 </div>

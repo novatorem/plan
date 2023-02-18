@@ -4,9 +4,9 @@
 
 	const pageDetails = {
 		page: '14',
-		previousPage: '13-heuristics',
-		nextPage: '/finale',
-		title: 'Plan | 14 - Perception, Attention, Memory',
+		previousPage: '/13-heuristics',
+		nextPage: '/15-attention',
+		title: 'Plan | 14 - Perception',
 		markdown: content,
 		tldr: '',
 		creation: ``
