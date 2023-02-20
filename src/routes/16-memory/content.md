@@ -12,9 +12,9 @@ Memory span varies wildly, notably for words: it was lower for longer words and 
 
 Working memory: central executive
 Sub-units of central executive:
-  Visuo-spatial sketchpad
-  Phonological loop
-  Episodic buffer
+Visuo-spatial sketchpad
+Phonological loop
+Episodic buffer
 Central executive communicates with long-term memory
 
 ## Auditory Memory
@@ -29,9 +29,9 @@ auditory memory
 
 Humans evolved to store spatial information in order to avoid obstacles and navigate a largely planar world
 Spatial memory is extremely powerful:
-  We recall dinner guests by mentally stepping around a table
-  Memorizers can recall the precise order of a full 52-card deck by using the Method of Loci (i.e., the Memory
-  Palace)
+We recall dinner guests by mentally stepping around a table
+Memorizers can recall the precise order of a full 52-card deck by using the Method of Loci (i.e., the Memory
+Palace)
 
 ## Long-Term Memory
 
@@ -46,9 +46,9 @@ Not an addressable storage
 LTM consists of connected nodes, each of which has an activation value: how easy it is to retrieve that node from
 memory
 3 factors influence activation:
-  Practice: your name has a high activation because you've had to recall it thousands of times
-  Recency: recently recalled or encoded memories are "fresher" are more easily accessible
-  Context: nodes that were encoded at the same time or are related are connected in memory. When one has a high activation, the activations of those around it increase and vice versa
+Practice: your name has a high activation because you've had to recall it thousands of times
+Recency: recently recalled or encoded memories are "fresher" are more easily accessible
+Context: nodes that were encoded at the same time or are related are connected in memory. When one has a high activation, the activations of those around it increase and vice versa
 
 ## Recognition vs. Recall
 
