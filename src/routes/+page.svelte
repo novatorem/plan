@@ -1,7 +1,6 @@
 <script lang="ts">
 	import Hero from '$lib/Hero.svelte';
 	import Theme from '$lib/Theme.svelte';
-	import Scroll from '$lib/Scroll.svelte';
 	import Footer from '$lib/Footer.svelte';
 </script>
 
@@ -10,8 +9,6 @@
 </svelte:head>
 
 <Theme />
-<Scroll />
-
 <Hero />
 
 <div class="hero min-h-screen bg-base-200">

@@ -28,7 +28,7 @@
 	});
 </script>
 
-<div id="hero" class="h-screen">
+<div id="hero" class="h-screen overflow-hidden">
 	<div
 		class="flex items-end md:items-center text-left justify-center h-screen p-12 p-12 md:w-6/12 w-full z-100"
 	>
