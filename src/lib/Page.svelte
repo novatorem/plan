@@ -50,10 +50,7 @@
 	<title>{title}</title>
 </svelte:head>
 
-<svelte:window
-	on:resize={() => setViewHeight()}
-	on:load={() => setViewHeight()}
-/>
+<svelte:window on:resize={() => setViewHeight()} on:load={() => setViewHeight()} />
 
 <div class="drawer">
 	<input id="my-drawer" type="checkbox" class="drawer-toggle" />
