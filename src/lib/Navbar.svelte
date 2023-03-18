@@ -1,12 +1,10 @@
 <script lang="ts">
 	import Theme from '$lib/Theme.svelte';
-	import Scroll from '$lib/Scroll.svelte';
 </script>
 
-<Scroll />
-<div class="navbar bg-neutral text-neutral-content fixed z-50">
+<div class="navbar bg-neutral text-neutral-content fixed">
 	<div class="navbar-start">
-		<label for="my-drawer" tabindex="0" class="btn btn-ghost btn-circle">
+		<label for="my-drawer" tabIndex="0" class="btn btn-ghost btn-circle">
 			<svg
 				xmlns="http://www.w3.org/2000/svg"
 				class="h-5 w-5"
