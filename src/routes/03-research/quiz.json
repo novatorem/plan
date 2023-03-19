@@ -1,0 +1,19 @@
+[
+	{
+		"question": "Qualitative data is better than quantitative data",
+		"correct_answer": "False: No one method is better than the other for all cases",
+		"incorrect_answers": [
+			"True: You need to ensure quality of data gathered",
+			"False: Statistics and numbers are more factual",
+			"True: Observations are more reliable for interfacing"
+		]
+	},
+	{
+		"question": "A laboratory experiment...",
+		"correct_answer": "needs to be reproducible and unbiased",
+		"incorrect_answers": [
+			"requires a scientific lab for data gathering",
+			"should only be used for quantitative data gathering"
+		]
+	}
+]

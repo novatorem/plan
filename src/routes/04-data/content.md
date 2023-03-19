@@ -14,10 +14,10 @@ Who are we gathering data from?
 
 - Everyone to whom your question applies belongs to your population
 - Which members of your population will you study?
-  - All (saturation sampling) - very rare
+  - All (saturation sampling)
   - A random subset (random sampling)
   - A random subset in multiple categories (stratified sampling)
-  - Whoever you can get your hands on (convenience sampling) - least rigorous, but we'll be using this
+  - Whoever you can get your hands on (convenience sampling)
 
 ## Ethics
 
@@ -36,7 +36,7 @@ Are we doing any harm by gathering data?
 
 ## Triangulation
 
-Employing different techniques to answer the same question
+It is the act of employing different techniques to answer the same question. That way, false data can be identified and discarded. If an incentive was provided for answering questions, bad faith actors might pick out random responses in order to complete the process as quickly as possible.
 
 ## Pilot testing
 

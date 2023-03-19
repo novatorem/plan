@@ -48,7 +48,7 @@
 </h3>
 
 {#each allAnswers as answer, index}
-	<div class="my-2 justify-left text-justify flex items-center">
+	<div class="my-2 justify-left lg:text-justify flex items-center">
 		<button
 			class="btn btn-square btn-sm answer mx-4"
 			on:click={() => checkQuestion(answer.correct, index)}
@@ -70,7 +70,7 @@
 {/each}
 
 {#if isCorrect}
-	<div class="flex justify-evenly text-justify my-12">
+	<div class="flex justify-evenly lg:text-justify my-12">
 		{#if nextQuestion}
 			<button class="btn" on:click={nextQuestion}>Next Question</button>
 		{/if}
