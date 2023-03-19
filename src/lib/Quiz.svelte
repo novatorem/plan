@@ -9,7 +9,7 @@
 
 	export let quiz: any;
 	let activeQuestion = 0;
-	
+
 	function nextQuestion() {
 		activeQuestion = activeQuestion + 1;
 	}

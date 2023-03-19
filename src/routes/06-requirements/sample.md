@@ -1,33 +1,33 @@
 - Questionnaires
-    - What is your income range?
-    - Is your net balance negative or positive? (Including student loans, if applicable)
-    - Who is responsible for your financial decisions?
-    - Do you have a budget for your expenses?
-    - How comfortable are you with your knowledge regarding the following?
-        - Credit Cards
-        - Savings Account
-        - TFSA
-        - RRSP
-        - GIC
-    - How did you choose your bank?
-    - Do you take financial advice from?
-        - Friends
-        - Family
-        - Coworkers
-        - Media
-        - Online Resources
-    - How do you seek new financial information?
-    - Did you know about the Ontarian Financial Literacy program?
 
+  - What is your income range?
+  - Is your net balance negative or positive? (Including student loans, if applicable)
+  - Who is responsible for your financial decisions?
+  - Do you have a budget for your expenses?
+  - How comfortable are you with your knowledge regarding the following?
+    - Credit Cards
+    - Savings Account
+    - TFSA
+    - RRSP
+    - GIC
+  - How did you choose your bank?
+  - Do you take financial advice from?
+    - Friends
+    - Family
+    - Coworkers
+    - Media
+    - Online Resources
+  - How do you seek new financial information?
+  - Did you know about the Ontarian Financial Literacy program?
 
 - Interview
-    - Have you been saving your money in any way? If yes, how do you save it and what do you do with it?
-    - If you lost your main source of income, how long can you maintain your standard of living without borrowing money/asking for help?
-    - If you were looking for financial advice, how would you go about it?
-    - Do you have any financial goals? If yes, how do you plan on achieving them?
-    - If your bank shut down, how would you go about choosing a new one?
-    - Regarding your current bank, can you answer the following:
-        - What rates do they have on their account (savings, credit card, etc)?
-        - What range of services do they offer?
-        - Do they provide information about banking?
-        - Is there any budgeting information available?
+  - Have you been saving your money in any way? If yes, how do you save it and what do you do with it?
+  - If you lost your main source of income, how long can you maintain your standard of living without borrowing money/asking for help?
+  - If you were looking for financial advice, how would you go about it?
+  - Do you have any financial goals? If yes, how do you plan on achieving them?
+  - If your bank shut down, how would you go about choosing a new one?
+  - Regarding your current bank, can you answer the following:
+    - What rates do they have on their account (savings, credit card, etc)?
+    - What range of services do they offer?
+    - Do they provide information about banking?
+    - Is there any budgeting information available?
