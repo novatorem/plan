@@ -7,6 +7,9 @@
 	{
 		"question": "What is triangulation?",
 		"correct_answer": "Asking the same question in different ways",
-		"incorrect_answers": ["Asking the same question over and over", "Method for getting Pythagoras' theorem"]
+		"incorrect_answers": [
+			"Asking the same question over and over",
+			"Method for getting Pythagoras' theorem"
+		]
 	}
 ]
