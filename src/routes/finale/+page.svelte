@@ -1,6 +1,5 @@
 <script lang="ts">
 	import Theme from '$lib/Theme.svelte';
-	import Scroll from '$lib/Scroll.svelte';
 	import Footer from '$lib/Footer.svelte';
 	import { Confetti } from 'svelte-confetti';
 </script>
@@ -10,7 +9,6 @@
 </svelte:head>
 
 <Theme />
-<Scroll />
 
 <div class="navbar bg-base-100">
 	<div class="navbar-start">
