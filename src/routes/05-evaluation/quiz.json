@@ -1,0 +1,12 @@
+[
+	{
+		"question": "A questionnaire should always contain open ended questions",
+		"correct_answer": "False",
+		"incorrect_answers": ["True"]
+	},
+	{
+		"question": "Conducting an interview in a formal manner will net you the best answers",
+		"correct_answer": "False, interviews should suit the situation and people involved",
+		"incorrect_answers": ["True, people should take interviews seriously", "False, casual interviews are better to gain rapport"]
+	}
+]

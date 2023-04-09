@@ -1,10 +1,15 @@
 <script lang="ts">
 	import Question from '$lib/Question.svelte';
+	import { onMount } from 'svelte';
 	import { score } from './store.js';
+
+	onMount(() => {
+		score.set(0);
+	});
 
 	export let quiz: any;
 	let activeQuestion = 0;
-
+	
 	function nextQuestion() {
 		activeQuestion = activeQuestion + 1;
 	}

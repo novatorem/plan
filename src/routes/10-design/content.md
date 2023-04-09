@@ -1,8 +1,8 @@
 # Design
 
-Early design <-> Late design <-> Development
+Early design ↔ Late design ↔ Development
 
-Low fidelity <-> High fidelity
+Low fidelity ↔ High fidelity
 
 ## Wireframes
 
@@ -26,9 +26,7 @@ Like wireframes, mockups are **static** and **non-interactive**.
 
 ## Prototypes
 
-A **prototype** is "a sample of a part or product fabricated in advance of production to allow demonstration, evaluation, or testing of the product."
-
-_proto_ (first, initial) + _typos_ (image, impression)
+A **prototype** is a sample of a part or product fabricated in advance of production to allow demonstration, evaluation, or testing of the product. The word can be decomposed through _proto_ (first, initial) + _types_ (image, impression).
 
 We use prototypes to illustrate and evaluate our products and systems with end users, usability experts and team members.
 
