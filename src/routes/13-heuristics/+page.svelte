@@ -5,7 +5,7 @@
 	const pageDetails = {
 		page: '13',
 		previousPage: '/12-conceptual',
-		nextPage: '/14-pam',
+		nextPage: '/14-perception',
 		title: 'Plan | 13 - Heuristics',
 		markdown: content,
 		tldr: '',
